@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/camera"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/about_program"
+        android:title="@string/about_program"
+        app:showAsAction="never" />
+</menu>

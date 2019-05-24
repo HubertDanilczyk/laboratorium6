@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BookWeb</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="about_program">O programie</string>
+    <string name="read_books">1. Czytaj książki</string>
+    <string name="leave_comment">2. Zostaw komentarz</string>
+    <string name="book_master">Book Master</string>
+    <string name="title_activity_books_list">BooksListActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="go_next">OK, DALEJ!</string>
+    <string name="bookweb">BookWeb</string>
+    <string name="mathematic">Matematyka</string>
+    <string name="informatic">Informatyka</string>
+    <string name="electronic">Elektronika</string>
+    <string name="mainPage">Strona Główna</string>
+    <string name="share">Udostępnij</string>
+    <string name="camera">Kamera</string>
+    <string name="books_list">Lista książek</string>
+    <string name="comments_list">Lista komentarzy</string>
+    <string name="share_app_info">Udostępnianie informacji o aplikacji</string>
+    <string name="share_app_title">Nowa aplikacja</string>
+    <string name="share_app_body"><![CDATA[Stworzyłem aplikację do listowania książek. Chcesz z niej skorzystać? Ściągnij ją z…]]></string>
+    <string name="new_comment">Nowy komentarz</string>
+    <string name="add_comment">Dodaj komentarz</string>
+    <string name="list_comments">Lista komentarzy</string>
+    <string name="author">Autor</string>
+    <string name="title">Tytuł</string>
+    <string name="text_review">Tekst recenzji</string>
+    <string name="add_review">Dadaj recenzję</string>
+    <string name="list_reviews">Lista recenzji</string>
+
+    <string name="nav_header_title">Jan Kowalski</string>
+    <string name="nav_header_subtitle">jan.kowalski@student.wat.edu.pl</string>
+    <string name="nav_header_desc">Nagłówek</string>
+    <string name="name">Imię</string>
+    <string name="player">Odtwarzacz</string>
+</resources>

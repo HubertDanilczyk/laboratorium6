@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_web"
+            android:title="@string/bookweb" />
+        <item
+            android:id="@+id/mathematic"
+            android:title="@string/mathematic" />
+        <item
+            android:id="@+id/informatic"
+            android:title="@string/informatic" />
+        <item
+            android:id="@+id/electronic"
+            android:title="@string/electronic" />
+
+        <item
+            android:id="@+id/books_list"
+            android:title="@string/books_list" />
+
+        <item
+            android:id="@+id/add_comment"
+            android:title="@string/add_comment" />
+
+        <item
+            android:id="@+id/list_comment"
+            android:title="@string/list_comments" />
+
+        <item
+            android:id="@+id/add_review"
+            android:title="@string/add_review" />
+
+        <item
+            android:id="@+id/list_reviews"
+            android:title="@string/list_reviews" />
+
+        <item
+            android:id="@+id/play"
+            android:title="@string/player" />
+    </group>
+
+</menu>
