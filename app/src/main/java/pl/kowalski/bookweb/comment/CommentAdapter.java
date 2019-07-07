@@ -1,5 +1,6 @@
 package pl.kowalski.bookweb.comment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,9 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull CommentAdapter.ViewHolder holder, int position) {
         // TODO wyświetlanie treści komentarza
-        // holder.comment.setText(comments.get(position)......);
+        holder.comment.setText(comments.get(position).getText());
+        holder.id.setText(comments.get(position).getId().toString());
+        holder.author.setText(comments.get(position).getAuthor());
     }
 
     @Override
@@ -69,11 +72,15 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
     public static class ViewHolder extends RecyclerView.ViewHolder {
         //widgety z comment_list_element.xml
         public TextView comment;
+        public TextView id;
+        public TextView author;
 
         public ViewHolder(View itemView) {
             super(itemView);
             //wyszukanie widgetów
-            comment = itemView.findViewById(R.id.comment);
+            comment = itemView.findViewById(R.id.text);
+            id = itemView.findViewById(R.id.id);
+            author = itemView.findViewById(R.id.author);
         }
     }
 }

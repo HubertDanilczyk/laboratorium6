@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
+    compileOptions {
+        targetCompatibility = "8"
+        sourceCompatibility = "8"
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "pl.kowalski.bookweb"
@@ -8,6 +12,7 @@ android {
         targetSdkVersion 28
         versionCode 2
         versionName "1.1"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         vectorDrawables.useSupportLibrary = true
@@ -37,7 +42,10 @@ dependencies {
     // więcej informacji https://mvnrepository.com/artifact/com.google.android.material/material/1.1.0-alpha06
     // zakładka Compile Dependencies
     implementation 'com.google.android.material:material:1.1.0-alpha06'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+    implementation("com.squareup.okhttp3:logging-interceptor:3.14.2")
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0-beta01'
